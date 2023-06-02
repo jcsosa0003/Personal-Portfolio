@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan's Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/965bf1ae3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- header section of the page --> 
+<div id="head">
+    <div class="container">
+        <nav>
+            <img src="portphotos/jslogo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">PC Builds</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>Front-End Developer <i class="fa-solid fa-code"></i><br> & Data Analyst<i class="fa-solid fa-flask-gear"></i><br></h1>
+            <p>Hi, I'm <font color="#76ADD0"><b>Juan Sosa.</b></font color> An enthusiastic front-end developer <br>located in Chicago, IL. <i class="fa-solid fa-tree-city"></i></p>
+            <br><br><br><br>
+            <p><font color="#76ADD0"><b>Tech Stack | </b></font color><i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-react"></i>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- about me section of the page -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="portphotos/gradphoto.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a computer science graduate student specializing in full stack development and front-end technologies. With a deep passion 
+                    for coding and a strong grasp of software development principles, I am eager to continue my career. Throughout my academic 
+                    journey, I have excelled in programming and problem-solving, gaining proficiency in various programming languages.<br><br>
+                    Actively engaging in my own projects, I stay updated with the latest advancements and emerging technologies. I possess a keen eye for design and 
+                    prioritize user-centered development. My front-end skills encompass frameworks such as React and AngularJS, enabling me to craft intuitive 
+                    and visually appealing interfaces. On the back end, I am adept in working with frameworks like Angular and Spring Boot. I have 
+                    actively contributed to projects in my previous internship. Now, I am seeking an exciting role as a 
+                    full stack or front-end developer, where I can leverage my skills to deliver exceptional software solutions.<br><br>
+                    On top of that, continuous learning is paramount to me. I actively contribute in my own personal projects, continue to further my coding languages expertises 
+                    and attempt to continue my knownledge in the everexpanding world of Web3.<br><br>
+                    In summary, I am a driven computer science graduate student with expertise in full stack development and front-end 
+                    technologies. With a strong academic foundation, a genuine passion for coding, and a focus on delivering outstanding 
+                    user experiences, I am poised to contribute to the tech industry and make a meaningful impact.<br>
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Proggraming</span><br>Java, Python, JavaScript, CSS, HTML, C++, SQL</li>
+                        <li><span>Frameworks</span><br>AngularJS and React (familiar)</li>
+                        <li><span>Platforms</span><br>Spring, Node.JS, MySQL, MongoDB, Oracle (familiar)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Stecker Inc.</span>
+                            <br><b>Full-Stack Developer Intern</b>
+                            <br>Along with our team, we successfully collaborated in the making 
+                            of our webpages and current up and running application called 
+                            RIO (Restaurant Industry Optimization). Maintained and upkeep on the application and website. Worked 
+                            on fixing bugs, issues, and worked on sprints to get tasks 
+                            completed in a timely and effective manner. Worked on the creation of the company's first ever Hackathon in 
+                            Chicago. This event is currently still in the making and will soon 
+                            take place.Created the company’s logo, along with working on other 
+                            branding material for the company, giving the company it’s 
+                            authentic look you see today.                            
+                            <br>(December 2022-May 2023)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Roosevelt University</span><br><b>Master's in Computer Science</b><br>(August 2022-Present)</li>
+                        <li><span>Roosevelt University</span><br><b>Minor in Computer Science</b><br>(August 2020-May 2022)</li>
+                        <li><span>Roosevelt University</span><br><b>Bachelor's in Excercise, Health Science</b><br>(August 2020-May 2022)</li>
+                        <li><span>Morton College</span><br><b>Associates in Science</b><br>(August 2018-May 2020)</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- portfolio section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="portphotos/pptn.png">
+                    <div class="layer">
+                        <h3><font color="white">Personal Portfolio</font></h3>
+                        <p><font color="white">Created with HTML, CSS, and JavaScript, Juan's portfolio 
+                        embodies the creativeness and originality he can create, as shown in his previous position at Stecker.<br><br>Visit it here.</font></p>
+                        <a href="https://jcsosathedev.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portphotos/riobg.png">
+                    <div class="layer">
+                        <h3><font color="white">"myRIO" by Stecker</font></h3>
+                        <p><font color="white">Participated in a big role in the creation of the companys two websites, MyRio, by Stecker.<br><br>Visit the site.</font></p>
+                        <a href="https://myrio.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portphotos/99solezbg.png">
+                    <div class="layer">
+                        <h3><font color="white">99' Solez Site</font></h3>
+                        <p><font color="white">Coming Soon</font></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a href="#" class="btn">See more!</a>
+    </div>
+</div>
+
+<!-- this code is for my services section -->
+<div id="div services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Development</h2>
+                <p>Juan is a proficient web developer who excels in crafting immersive online experiences. With a keen eye for design 
+                and a deep understanding of front-end and back-end technologies, he creates visually appealing and user-friendly websites. 
+                Juan's expertise extends to various programming languages, frameworks, and content management systems, allowing him to tailor 
+                solutions to meet specific client needs. As a web developer, he possesses a solid understanding of responsive design 
+                principles and ensures that websites are optimized for different devices and screen sizes. Juan's attention to detail, 
+                combined with his ability to translate client requirements into functional and aesthetically pleasing websites, makes him a 
+                sought-after professional in the field of web development.</p>
+                <a href="#">Email Me!</a>
+            </div>   
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <h2>Freelancing</h2>
+                <p>Juan is a talented freelance software engineering consultant who offers his expertise to clients seeking innovative 
+                solutions. With a wealth of experience working on diverse projects, Juan has honed his skills in developing custom 
+                software applications and optimizing existing systems. As a freelancer, he embraces flexibility and adapts seamlessly 
+                to different project requirements and timelines. Juan's strong work ethic and commitment to delivering high-quality results 
+                have earned him a reputation for being a reliable and dependable consultant. Whether it's collaborating with a startup or 
+                assisting a large enterprise, Juan brings a combination of technical proficiency and business acumen to every freelance 
+                endeavor, ensuring client satisfaction and success.</p>
+                <a href="#">Touch bases with me..</a>
+            </div> 
+            <div>
+                <i class="fa-sharp fa-solid fa-desktop"></i>
+                <h2>PC Building</h2>
+                <p>Juan is a skilled PC builder who takes pride in crafting high-performance custom computers. With an in-depth knowledge 
+                    of computer hardware components and a passion for staying up-to-date with the latest technological advancements, he 
+                    meticulously selects the best components to meet his clients' needs. Juan's expertise extends beyond mere hardware 
+                    compatibility, as he considers factors like performance, reliability, and budget constraints. Whether it's a gaming 
+                    rig or a professional workstation, Juan carefully assembles and tests each PC, ensuring optimal performance and functionality. 
+                    With his attention to detail and commitment to customer satisfaction, Juan has established a reputation as a trusted and reliable 
+                    PC builder, catering to the diverse needs of his clients.</p>
+                <a href="#">Contact Me</a>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<!-- this section is for the pc builds -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My PC Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="portphotos/pc1.png">
+                    <div class="layer">
+                        <h3><font color="white"> Juan's Personal Build</font></h3>
+                        <p><font color="white">Juan's personally built gaming computer. Specifically made from the best and most recent tech on
+                        the PC market.<br><br>PC Specs: NVidia 4070 Founder's Edition<br>
+                        -7900X AMD Processor<br>
+                        -ASUS STRIX B650E Motherboard<br>
+                        -32 GB DDR5 6000 RAM<br>
+                        -Corsair AIO Cooler<br>
+                        -2(x) Lian-Li Strimmer Cables<br>
+                        -10(x) Infinty Lian-Li Fans<br>
+                        -011 Dynamic ATX Lian-Li Case
+                        </font></p>
+                        <a href="#"><i class="fa-solid fa-gamepad"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portphotos/pc2.png">
+                    <div class="layer">
+                        <h3><font color="white">Coming Soon</font></h3>
+                        <p><font color="white">Coming Soon</font></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portphotos/pc3.png">
+                    <div class="layer">
+                        <h3><font color="white">Coming Soon</font></h3>
+                        <p><font color="white">Coming Soon</font></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portphotos/pc4.png">
+                    <div class="layer">
+                        <h3><font color="white">Coming Soon</font></h3>
+                        <p><font color="white">Coming Soon</font></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portphotos/pc5.png">
+                    <div class="layer">
+                        <h3><font color="white">Coming Soon</font></h3>
+                        <p><font color="white">Coming Soon</font></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a href="#" class="btn">See more!</a>
+    </div>
+</div>
+
+<!-- contact section -->
+<div id="contact">
+    <div class="container">
+        <div class="row"> 
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me!</h1>
+                <p><font color="white">jcsosa0003@gmail.com</font></p>
+                <p><font color="white">(708) 968-0318</font></p>
+                <div class="social-icons">
+                    <a ref="https://www.linkedin.com/in/juan-sosa-220177227/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a ref="https://github.com/jcsosa0003"><i class="fa-brands fa-github"></i></a>
+                    <a ref="https://www.showwcase.com/jcsosa0003158"><i class="fa-sharp fa-solid fa-code"></i></a>
+                    <a ref="mailto: jcsosa0003@gmail.com"><i class="fa-solid fa-at"></i></a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+
+
+<!-- this code is for the about me section, the tabs setion -->
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
